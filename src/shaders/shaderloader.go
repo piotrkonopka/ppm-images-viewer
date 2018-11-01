@@ -5,12 +5,11 @@ import (
 	"io/ioutil"
 	"log"
 	"strings"
-
 	"github.com/go-gl/gl/v4.1-core/gl"
 )
 
 const (
-        shadersPath = "src/shaders/"
+    shadersPath = "src/shaders/"
 	vertexFilePath   = "vertexshader.glsl"
 	fragmentFilePath = "fragmentshader.glsl"
 )

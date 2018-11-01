@@ -1,12 +1,11 @@
 package main
 
 import (
-        "runtime"
-        "github.com/go-gl/glfw/v3.2/glfw"
-
-        "./src/program"
-        "./src/renderer"
-        "./src/window"
+    "runtime"
+    "github.com/go-gl/glfw/v3.2/glfw"
+    "./src/program"
+    "./src/renderer"
+    "./src/window"
 )
 
 func init() {
@@ -15,10 +14,10 @@ func init() {
 }
 
 func main() {
-        wind := window.CreateWindow()
+    wind := window.CreateWindow()
 	defer glfw.Terminate()
 
-        prog := program.CreateProgram()
+    prog := program.CreateProgram()
 
 	renderer.Render(wind, prog)
 }

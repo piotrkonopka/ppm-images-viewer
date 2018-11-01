@@ -1,7 +1,7 @@
 package window
 
 import (
-        "github.com/go-gl/glfw/v3.2/glfw"
+    "github.com/go-gl/glfw/v3.2/glfw"
 )
 
 const (
@@ -27,7 +27,7 @@ func CreateWindow() *glfw.Window {
 	}
 	window.MakeContextCurrent()
 
-        window.SetInputMode(glfw.StickyKeysMode, glfw.True)
+    window.SetInputMode(glfw.StickyKeysMode, glfw.True)
 
 	return window
 }
