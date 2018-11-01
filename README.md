@@ -1,5 +1,5 @@
-![OpenGl](opengl.png | height=200)
-![Golang](golang.jpg | height=200)
+![OpenGl](opengl.png)
+![Golang](golang.jpg)
 
 # ppm-images-viewer
 
